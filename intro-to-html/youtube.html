@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com Clone</title>
+    <style>
+        p{
+            margin-top:0;
+            margin-bottom:0;
+        }
+        .video-title{
+            margin-bottom:12px;
+        }
+
+        .video-author{
+            margin-bottom:4px;
+        }
+        .thumbnail {
+            width:300px;
+             height:180px;
+             object-fit:cover;
+            /* width:300px;
+            object-fit:cover; */
+            /* height:300px;
+            object-fit:contain;
+            object-position:top;
+            border-width:2px;
+            border-style:solid;
+            border-color:black; */
+        }
+        .video-info-grid{
+            display:grid;
+            grid-template-columns:50px 1fr;
+            align-items:start;
+            margin-top:10px;
+        }
+        .search-bar{
+            font-size:20px;
+            margin-left:12px;
+            display:block;
+            margin-bottom:20px;
+        }
+        /* p{
+            display:inline-block;
+        } */
+         .video-preview{
+            width:300px;
+            display:inline-block;
+            margin-right:140px;
+            vertical-align : top;
+            margin-right:15px;
+         }
+         .channel-picture{
+            display:inline-block;
+            width:50px;
+         }
+         .profile-picture{
+            width:40px;
+            height:40px;
+            object-fit:cover;
+            border-radius:50%;
+         }
+         .video-info{
+            display:inline-block;
+            width:200px;
+         }
+         .video-title{
+            font-weight:bold;
+            width:300px;
+         }
+    </style>
+</head>
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+<div class="video-preview">
+    <div>
+    <img class="thumbnail" src="movie1.jpg" alt="Movie1">
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="youtuber.webp" >
+        </div>
+        <div class="video-info">
+            <p class="video-title"><strong>An Amazing Action based Movie</strong></p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views . 6 months ago</p>
+        </div>
+    </div>
+</div>
+<div class="video-preview">
+    <img class="thumbnail" src="movie2.jpg" alt="Movie2">
+    <p><strong>An Amazing Action based Movie</strong></p>
+    <p>Marques Brownlee</p>
+    <p>3.4M views . 6 months ago</p>
+</div>
+</body>
+</html>
