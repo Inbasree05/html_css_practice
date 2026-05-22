@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    font-weight:bold;
+    margin-top:100px;
+    Transition:0.5s;
+    border:none;
+    display:flex;
+    color:black;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+}
+.clock{
+    font-size:medium;
+    border-radius:20px;
+    background-color:indigo;
+    color:white;
+    padding:15px 30px;
+    box-shadow:5px 10px 10px gray;
+    text-align:center;
+    width:60px;
+}
+#item{
+    color:black;
+}
