@@ -1,0 +1,19 @@
+body{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top:100px;
+    transition:1s;
+    align-items:center;
+}
+button{
+    border-color:black;
+    border-style:solid;
+    padding:15px 30px;
+    font-size:18px;
+    background:hotpink;
+    color:white;
+    cursor:pointer;
+    border-radius:20px;
+    box-shadow: 5px 10px 10px gray;
+
+}
